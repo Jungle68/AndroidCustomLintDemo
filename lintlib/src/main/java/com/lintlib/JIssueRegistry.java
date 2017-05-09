@@ -6,6 +6,7 @@ import com.lintlib.core.JActivityFragmentLayoutNameDetector;
 import com.lintlib.core.JAttrPrefixDetector;
 import com.lintlib.core.JCloseDetector;
 import com.lintlib.core.JLogUsageDetector;
+import com.lintlib.core.JToastHelperDetector;
 import com.lintlib.core.JXmlValuesDetector;
 
 import java.util.Arrays;
@@ -26,6 +27,7 @@ public class JIssueRegistry extends IssueRegistry {
                 JCloseDetector.ISSUE,
                 JActivityFragmentLayoutNameDetector.ACTIVITY_LAYOUT_NAME_ISSUE,
                 JActivityFragmentLayoutNameDetector.FRAGMENT_LAYOUT_NAME_ISSUE,
+                JToastHelperDetector.ISSUE,
                 JXmlValuesDetector.ISSUE);
     }
 }
