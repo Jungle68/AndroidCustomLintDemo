@@ -4,6 +4,7 @@ import com.android.tools.lint.client.api.IssueRegistry;
 import com.android.tools.lint.detector.api.Issue;
 import com.lintlib.core.JActivityFragmentLayoutNameDetector;
 import com.lintlib.core.JAttrPrefixDetector;
+import com.lintlib.core.JBaseActivityDetector;
 import com.lintlib.core.JCloseDetector;
 import com.lintlib.core.JLogUsageDetector;
 import com.lintlib.core.JToastHelperDetector;
@@ -28,6 +29,7 @@ public class JIssueRegistry extends IssueRegistry {
                 JActivityFragmentLayoutNameDetector.ACTIVITY_LAYOUT_NAME_ISSUE,
                 JActivityFragmentLayoutNameDetector.FRAGMENT_LAYOUT_NAME_ISSUE,
                 JToastHelperDetector.ISSUE,
+                JBaseActivityDetector.ISSUE,
                 JXmlValuesDetector.ISSUE);
     }
 }
