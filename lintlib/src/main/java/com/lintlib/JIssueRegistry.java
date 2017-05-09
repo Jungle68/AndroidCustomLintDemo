@@ -2,6 +2,7 @@ package com.lintlib;
 
 import com.android.tools.lint.client.api.IssueRegistry;
 import com.android.tools.lint.detector.api.Issue;
+import com.lintlib.core.JActivityFragmentLayoutNameDetector;
 import com.lintlib.core.JAttrPrefixDetector;
 import com.lintlib.core.JCloseDetector;
 import com.lintlib.core.JLogUsageDetector;
@@ -23,6 +24,8 @@ public class JIssueRegistry extends IssueRegistry {
         return Arrays.asList(JLogUsageDetector.ISSUE,
                 JAttrPrefixDetector.ISSUE,
                 JCloseDetector.ISSUE,
+                JActivityFragmentLayoutNameDetector.ACTIVITY_LAYOUT_NAME_ISSUE,
+                JActivityFragmentLayoutNameDetector.FRAGMENT_LAYOUT_NAME_ISSUE,
                 JXmlValuesDetector.ISSUE);
     }
 }
