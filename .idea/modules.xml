@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidCustomLintDemo.iml" filepath="$PROJECT_DIR$/AndroidCustomLintDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lintlib/lintlib.iml" filepath="$PROJECT_DIR$/lintlib/lintlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lintlib_aar/lintlib_aar.iml" filepath="$PROJECT_DIR$/lintlib_aar/lintlib_aar.iml" />
+    </modules>
+  </component>
+</project>
